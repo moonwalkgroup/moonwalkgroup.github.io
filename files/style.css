@@ -115,7 +115,7 @@ ul {
 		.content{ width:100%}
 
 		.logo {
-		background: url('logo2.png') center top no-repeat;
+		background: url('../logo2.png') center top no-repeat;
 		background-size: 246px 35px;
 		width: 246px;
 		height: 35px;
