@@ -85,7 +85,7 @@ ul {
 
 .logo {
 	/*background: url('https://cdn3.vox-cdn.com/thumbor/wbsL0sANn6JlNR6Isq_xBJPQ6Sc=/0x0:1041x694/1280x854/cdn0.vox-cdn.com/uploads/chorus_image/image/47536151/337294main_pg62_as11-40-5903_full.0.0.jpg') center top no-repeat;*/
-	background: url('../logo.png') center top no-repeat;
+	background: url('logo.png') center top no-repeat;
 	width: 373px;
 	height: 53px;
 	margin: .83em auto 160px auto;
