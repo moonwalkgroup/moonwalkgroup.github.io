@@ -14,7 +14,7 @@ body {
 }
 
 #top, #bottom, #left, #right {
-	background: #7F7F7F;
+	background: #808080;
 	position: fixed;
 	}
 	#left, #right {
