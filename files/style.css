@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+	
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
+	background: #ffffff;
+	color: #bbb;
+	padding: 12px;
+	text-align: center;
+}
+
+#top, #bottom, #left, #right {
+	background: #7F7F7F;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 2px;
+		}
+		#left { left: 20px; }
+		#right { right: 20px; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2px;
+		}
+		#top { top: 20px; }
+		#bottom { bottom: 20px; }
+
+#top_w, #bottom_w, #left_w, #right_w {
+	background: #fff;
+	position: fixed;
+	z-index: 100;
+	}
+	#left_w, #right_w {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left_w { left: 0; }
+		#right_w { right: 0; }
+		
+	#top_w, #bottom_w {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top_w { top: 0px; }
+		#bottom_w { bottom: 0px; }
+
+
+/*.container {
+	margin: 0 auto;
+	width: 900px;
+	height: 670px;
+	position: relative;
+	background: url('main-back.png');*/
+/*}*/
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+.address {
+	width: 250px;
+	float: left;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.address1 {
+	padding-left: 50px;
+}
+
+.address2 {
+	padding-left: 80px;
+}
+
+.content{width:500px;margin:0 auto;overflow:hidden}
+
+.logo {
+	/*background: url('https://cdn3.vox-cdn.com/thumbor/wbsL0sANn6JlNR6Isq_xBJPQ6Sc=/0x0:1041x694/1280x854/cdn0.vox-cdn.com/uploads/chorus_image/image/47536151/337294main_pg62_as11-40-5903_full.0.0.jpg') center top no-repeat;*/
+	background: url('../logo_1.png') center top no-repeat;
+	width: 373px;
+	height: 53px;
+	margin: .83em auto 160px auto;
+}
+
+
+@media only screen and (min-height: 250px) and (min-width: 520px),screen and (min-height: 400px) and (max-width: 520px){
+
+	body{ padding:0}
+
+	.container{width:100%;height:100%;position:absolute}
+
+	.container{height:100%;position:absolute;top:0;left:0}
+
+	.content{position:absolute;top:50%;left:50%;margin-top:-125px;margin-left:-250px}
+
+}
+
+@media screen and (min-height: 400px) and (max-width: 520px){
+
+	.content{ margin-top:-180px;margin-left:0;left:0}
+	
+}
+
+@media screen and (max-width: 520px){
+
+		.content{ width:100%}
+
+		.logo {
+		background: url('logo2.png') center top no-repeat;
+		background-size: 246px 35px;
+		width: 246px;
+		height: 35px;
+		margin: 50px auto 40px auto;
+	}
+
+	.address1, .address2 {
+		padding: 0;
+	}
+
+	.address{float:none;width:100%;text-align:center}
+}
+
